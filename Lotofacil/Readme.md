@@ -15,3 +15,6 @@ Além disso, o código usa entrada e saída de dados (Scanner e System.in) para 
 Há tratamentos de erro para situações em que o usuário faz apostas inválidas, como inserir um número fora do intervalo especificado ou fornecer uma entrada inválida ao apostar em uma letra.
 
 Por fim, o código fecha o Scanner quando o jogo termina para liberar os recursos.
+
+
+A versão do java utilizada foi a 20.0.2
