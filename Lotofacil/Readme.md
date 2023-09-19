@@ -18,3 +18,10 @@ Por fim, o código fecha o Scanner quando o jogo termina para liberar os recurso
 
 
 A versão do java utilizada foi a 20.0.2
+
+
+ Bibliotecas Utilizadas: O projeto utiliza as seguintes bibliotecas do Java:
+        java.util.Scanner: Para ler entradas do teclado.
+        java.util.Random: Para gerar números aleatórios.
+        java.io.IOException: Para lidar com exceções de entrada/saída.
+
