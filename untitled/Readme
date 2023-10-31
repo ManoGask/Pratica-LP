@@ -1,0 +1,49 @@
+O que o código faz:
+Criação da Interface Gráfica:
+
+O código cria uma interface gráfica simples usando a biblioteca Swing do Java. Ela permite a interação com o usuário através de uma janela com botões e uma lista.
+Funcionalidades:
+
+Adicionar Tarefa:
+
+Quando o botão "Adicionar Tarefa" é clicado, uma caixa de diálogo é exibida solicitando ao usuário que insira uma tarefa. A tarefa é então adicionada à lista.
+Remover Tarefa:
+
+Quando o botão "Remover Tarefa" é clicado, uma caixa de diálogo é exibida solicitando ao usuário que insira a tarefa a ser removida. Se a tarefa existir na lista, ela será removida.
+Listar Tarefas:
+
+Quando o botão "Listar Tarefas" é clicado, uma caixa de diálogo exibe todas as tarefas atualmente na lista.
+Bibliotecas utilizadas:
+import javax.swing.*;:
+Este import traz todas as classes e recursos da biblioteca Swing, que é usada para criar interfaces gráficas em Java. Ela fornece componentes como botões, caixas de texto, listas, etc.
+
+import java.awt.*;:
+Este import traz as classes e recursos do pacote AWT (Abstract Window Toolkit), que é usado para criar elementos gráficos como janelas, botões e caixas de diálogo.
+
+import java.awt.event.ActionEvent;:
+Este import traz a classe ActionEvent, que é usada para representar eventos de ação, como cliques em botões.
+
+import java.awt.event.ActionListener;:
+Este import traz a interface ActionListener, que é implementada por classes que desejam responder a eventos de ação.
+
+import java.util.ArrayList;:
+-Este import traz a classe ArrayList do pacote java.util, que é uma estrutura de dados que armazena uma coleção de elementos de forma dinâmica e flexível.
+
+Como usar o código:
+Compilar e Executar:
+
+Copie o código fornecido e cole em um arquivo com a extensão .java, por exemplo Interface.java.
+Abra um terminal e navegue até o diretório onde o arquivo está localizado.
+Compile o código com o comando javac Interface.java.
+Execute o código com o comando java Interface.
+Interagir com a Interface:
+
+Uma janela será aberta, com três botões: "Adicionar Tarefa", "Remover Tarefa" e "Listar Tarefas".
+Ao clicar no botão "Adicionar Tarefa", uma caixa de diálogo permitirá que você insira uma nova tarefa.
+Ao clicar no botão "Remover Tarefa", uma caixa de diálogo solicitará que você insira o nome da tarefa a ser removida.
+Ao clicar no botão "Listar Tarefas", uma caixa de diálogo exibirá todas as tarefas atualmente na lista.
+
+
+
+
+
